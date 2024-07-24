@@ -3,9 +3,10 @@
 BaseCaching module
 """
 
-
 class BaseCaching:
     """BaseCaching defines a caching system"""
+
+    MAX_ITEMS = 4
 
     def __init__(self):
         """Initialize the caching system"""
